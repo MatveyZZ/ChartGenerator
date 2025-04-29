@@ -1,51 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); /* Импорт шрифта Poppins из Google Fonts */
 
 * {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    font-family: 'Poppins', sans-serif;
+    margin: 0; /* Убираем отступы по умолчанию для всех элементов */
+    padding: 0; /* Убираем внутренние отступы по умолчанию для всех элементов */
+    outline: none; /* Убираем контур при фокусировке на элементах */
+    font-family: 'Poppins', sans-serif; /* Устанавливаем шрифт Poppins для всех элементов */
 }
 
 body {
-    background-color: #f4f4f4;
-    color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    background-color: #f4f4f4; /* Устанавливаем светло-серый цвет фона для всего тела страницы */
+    color: #333; /* Устанавливаем темно-серый цвет текста */
+    display: flex; /* Используем flexbox для выравнивания содержимого */
+    align-items: center; /* Выравниваем элементы по вертикали по центру */
+    justify-content: center; /* Выравниваем элементы по горизонтали по центру */
+    height: 100vh; /* Устанавливаем высоту тела страницы на 100% высоты окна браузера */
 }
 
 .container {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Устанавливаем белый цвет фона для контейнера */
+    padding: 30px; /* Устанавливаем внутренние отступы в 30 пикселей */
+    border-radius: 20px; /* Закругляем углы контейнера радиусом 20 пикселей */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Добавляем тень к контейнеру */
 }
 
 .controls {
-    margin-top: 30px;
-    text-align: center;
+    margin-top: 30px; /* Устанавливаем верхний отступ в 30 пикселей для блока управления */
+    text-align: center; /* Выравниваем текст по центру */
 }
 
 .select,
 .input {
-    padding: 8px;
-    margin-right: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    padding: 8px; /* Устанавливаем внутренние отступы в 8 пикселей для селектов и инпутов */
+    margin-right: 10px; /* Устанавливаем правый отступ в 10 пикселей */
+    border: 1px solid #ddd; /* Устанавливаем светло-серую рамку */
+    border-radius: 4px; /* Закругляем углы селектов и инпутов радиусом 4 пикселя */
 }
 
 .btn {
-    padding: 8px 15px;
-    border: none;
-    background-color: #303f9f;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    padding: 8px 15px; /* Устанавливаем внутренние отступы: 8 пикселей сверху и снизу, 15 пикселей слева и справа */
+    border: none; /* Убираем рамку у кнопки */
+    background-color: #303f9f; /* Устанавливаем темно-синий цвет фона для кнопки */
+    color: #fff; /* Устанавливаем белый цвет текста для кнопки */
+    border-radius: 4px; /* Закругляем углы кнопки радиусом 4 пикселя */
+    cursor: pointer; /* Изменяем курсор на указатель при наведении на кнопку */
+    transition: all 0.3s ease; /* Добавляем плавный переход для всех свойств за 0.3 секунды */
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Изменяем цвет фона кнопки на более светлый синий при наведении */
 }
